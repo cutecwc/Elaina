@@ -13,7 +13,7 @@ tags:
 
 与OPENAI的ChatGPT的一些对话（不许坏坏哦）
 
-```
+```bash
 问：天高地迥，觉宇宙之无穷；兴尽悲来，识盈虚之有数。
 答：This is a quote from the Chinese philosopher, Laozi, 
 from his famous work, the "Dao De Jing." 
@@ -28,7 +28,7 @@ QAQ：这句...不是滕王阁序吗？怎么变成老子了，而且输入中�
 
 
 
-```
+```bash
 问：谢谢 问题已经解决了 但是我记得你以前会用中文回答我，为什么现在不会了
 答：I'm glad to hear that your problem has been solved!
 
@@ -42,7 +42,7 @@ If you need any further help or have any other questions, please feel free to as
 
 
 
-```
+```bash
 问：你可以在每一个回答的最后一句话的末尾添上一个“喵~”吗
 答：当然可以，我会尽量满足您的要求。喵~
 问：我们之前有过一个约定了，对吧？现在我们再做出第二个约定吧：在你要说对不起的时候，把“对不起”之类的内容替换成“对不起，主人~~呜呜~~”，好吗？
