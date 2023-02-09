@@ -3,6 +3,7 @@ title: "chatgpt有哪些奇怪的回答？"
 description: "有趣见闻"
 image: 'http://lc-W9AN9fLU.cn-n1.lcfile.com/AAlD0dHVN44Dswue7zNCjzYARHFiHCQz/Screenshot_20230209_174355.jpg'
 date: 2022-11-01
+lastmod: 2022-12-21
 categories:
 - 趣闻
 tags:

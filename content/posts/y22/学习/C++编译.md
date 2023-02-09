@@ -6,8 +6,7 @@ date: 2022-01-01
 categories:
 - 学习笔记
 tags:
-- C语言学习
-- 学与思
+- 语言学习
 ---
 
 ## Compiling the files:
