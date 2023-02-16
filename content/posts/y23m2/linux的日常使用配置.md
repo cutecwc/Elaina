@@ -10,4 +10,4 @@ tags: ["教程/搭建"]
 ---
 
 
-推荐阅读：[代理搭建测试](https://github.com/cutecwc/Elaina/blob/main/content/posts/y23m1/%E5%90%8C%E6%AD%A5%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F.md)
+推荐阅读：[代理搭建测试](https://github.com/cutecwc/Elaina/blob/main/content/posts/y23m2/V2Ray%3F.md)
