@@ -183,7 +183,7 @@ hasCJKLanguage = true
     [[menus.social]]
         name = "bilibili"
         url = "https://www.bilibili.com"
-        pre = "<i class='fa fa-bilibili'></i>"
+        pre = "<i class='fa fa-youtube'></i>"
         weight = 2
 
     # sponsor, maxum 3
