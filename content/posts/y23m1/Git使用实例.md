@@ -11,7 +11,7 @@ tags:
 
 
 
-{{< figure src="http://lc-W9AN9fLU.cn-n1.lcfile.com/24dnT9HzsieEKp88F0O40PFqu7gg0bhV/104270153_p0.jpg" title="zhen" >}}
+{{< figure src="https://eelainas.oss-cn-hangzhou.aliyuncs.com/blog_picture/23old/104270153_p0.jpg" title="zhen" >}}
 
 ### Git的使用
 
