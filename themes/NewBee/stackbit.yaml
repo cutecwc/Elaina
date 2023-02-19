@@ -105,6 +105,9 @@ models:
             name: youtube
             label: Youtube
           - type: string
+            name: bilibili
+            label: bilibili
+          - type: string
             name: github
             label: Github
           - type: string
