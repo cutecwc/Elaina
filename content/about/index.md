@@ -34,8 +34,8 @@ tags: []
 series: []
 ** Top image for the post **
 image: "" 在静态中放置需要的文件。
-```
-
-[测试文件](/files/clash.tar.gz)下载。
 
 博客主题来自 [Here](https://github.com/xioyito/NewBee)。
+```
+
+[测试文件](/files/clash.tar.gz)下载(文件已删除)。
