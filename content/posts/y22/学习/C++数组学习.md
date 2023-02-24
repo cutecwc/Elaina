@@ -1,5 +1,5 @@
 ---
-title: "C++数组初学"
+title: "C++学习笔记(二)"
 description: "C/C++"
 image: '/images/post/y22_trans/104354054_p0.jpg'
 date: 2022-12-15
