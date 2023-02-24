@@ -36,6 +36,12 @@ Exec= env QT_SCREEN_SCALE_FACTORS=1 /usr/bin/wpp %F
 wpspdf 依赖于 libtiff5.so.5 以支撑其 PDF 功能。而系统更新后，Arch Linux 提供的是 libtiff.so.6 或更新版本，导致其无法正常工作。以下为几种可选的解决方案：
 
 1. 安装 [libtiff5](https://aur.archlinux.org/packages/libtiff5/)AUR。
-2. 使用 `sudo ln /usr/lib/libtiff.so.6 /usr/lib/libtiff.so.5` 创建其硬链接，让 WPS 将 libtiff.so.6 当作 libtiff.so.5 使用。
+2. 使用 
+
+   ```bash
+   sudo ln /usr/lib/libtiff.so.6 /usr/lib/libtiff.so.5
+   ```
+
+    创建其硬链接，让 WPS 将 libtiff.so.6 当作 libtiff.so.5 使用。
 
 ##### 3、KDE
