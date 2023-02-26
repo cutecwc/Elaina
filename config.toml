@@ -182,7 +182,7 @@ hasCJKLanguage = true
         weight = 1
     [[menus.social]]
         name = "twitter"
-        url = "https://twitter.com/wxymywill"
+        url = "https://twitter.com/liyue_qian"
         pre = "<i class='fa fa-twitter'></i>"
         weight = 2
 

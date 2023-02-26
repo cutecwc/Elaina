@@ -1,19 +1,17 @@
 ---
-title: "C++学习笔记(二)"
+title: “二分查找”
 description: "C/C++"
 image: '/images/post/y22_trans/104354054_p0.jpg'
 date: 2022-12-15
 categories:
-- 学习笔记
+- alg-c++
 tags:
-- 语言学习
+- alg-c++
 ---
 
 
 
-# C++数组初学
-
-### 一、特性
+### 一、数组特性
 
 * 地址从零开始计数
 
