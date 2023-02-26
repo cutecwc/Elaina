@@ -44,4 +44,13 @@ wpspdf 依赖于 libtiff5.so.5 以支撑其 PDF 功能。而系统更新后，Ar
 
     创建其硬链接，让 WPS 将 libtiff.so.6 当作 libtiff.so.5 使用。
 
-##### 3、KDE
+##### 3、endeavouros与archlinux
+
+作为arch的代替，endeavouros可以以图形化的方式使用户很方便地体验到arch。
+
+```markdown
+archlinux：自由定制，原教旨主义。
+endeavouros：方便、继承archlinux的主义，在安装时为用户部署了一定量的软件（可选），支持图形化安装
+manjaro：基于arch思想，但拥有自己特色的发行版，拥有内核管理等有用的小工具，支持图形化安装
+```
+

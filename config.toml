@@ -181,9 +181,9 @@ hasCJKLanguage = true
         pre = "<i class='fa fa-github'></i>"
         weight = 1
     [[menus.social]]
-        name = "youtube"
-        url = "https://www.bilibili.com"
-        pre = "<i class='fa fa-youtube'></i>"
+        name = "twitter"
+        url = "https://twitter.com/wxymywill"
+        pre = "<i class='fa fa-twitter'></i>"
         weight = 2
 
     # sponsor, maxum 3
