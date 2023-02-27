@@ -1,12 +1,12 @@
 ---
-title: “二分查找”
+title: algo-二分查找
 description: "C/C++"
 image: '/images/post/y22_trans/104354054_p0.jpg'
 date: 2022-12-15
 categories:
-- alg-c++
+- algo-c++
 tags:
-- alg-c++
+- algo-c++
 ---
 
 
