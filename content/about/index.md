@@ -10,7 +10,8 @@ image: '/images/post/23年2月/Screenshot_20230208_154626.png'
 ** (9) **
 {{< figure src="/images/post/23年2月/80468767_p0.jpg" title="(9)" >}}
 
-这是wxymywill的个人博客。
+这是wxymywill的个人博客(先行版)-elaina.ink(https://eelaina.ink/ )。
+网页使用的静态网站，由github保存，由netlify构建并发布。其中图床使用的是github，在国内大概率加载不出来。由于是先行版本，本博客可能很少维护或者修改特别频繁，其中错误的地方难免较多，欢迎前往`eelaina.cc`（https://eelaina.cc/ ）评论区提出。`cc`的维护亦具有不稳定性，通常情况下记载了本网站较为成熟的知识点以供复习使用。
 
 以下是部分的参数记录：
 
@@ -34,6 +35,9 @@ tags: []
 series: []
 ** Top image for the post **
 image: "" 在静态中放置需要的文件。
+
+
+{{< figure src="/images/post/23年2月/80468767_p0.jpg" title="(9)" >}}
 
 博客主题来自 [Here](https://github.com/xioyito/NewBee)。
 ```
