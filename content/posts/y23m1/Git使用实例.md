@@ -11,7 +11,7 @@ tags:
 
 
 
-{{< figure src="https://eelainas.oss-cn-hangzhou.aliyuncs.com/blog_picture/23old/104270153_p0.jpg" title="zhen" >}}
+{{< figure src="https://github.com/cutecwc/pucpica/blob/main/blgold/104270153_p0.jpg?raw=true" title="zhen" >}}
 
 ### Git的使用
 
