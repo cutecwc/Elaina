@@ -258,7 +258,8 @@ hasCJKLanguage = true
         noHl = false
         hl_inline = false
         # 代码高亮样式，更多样式请移步：https://xyproto.github.io/splash/docs/
-        style = 'monokailight'
+        #style = 'monokailight'
+        style = 'rainbow_dash'
         tabWidth = 4
 
     # enable the following code if there are html statements in your md file
