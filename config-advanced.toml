@@ -154,10 +154,10 @@ hasCJKLanguage = true
     # aplayer, se  more: https://aplayer.js.org/#/zh-Hans/
     # 音乐播放器配置，详情请移步：https://aplayer.js.org/#/zh-Hans/
     [params.aplayer]
-        enable = false
+        enable = true
         server = "netease"
         type = "playlist"
-        id = 752439587
+        id = 141973207
         fixed = true
         autoplay = false
         loop = "all"
