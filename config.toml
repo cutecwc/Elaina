@@ -166,15 +166,21 @@ hasCJKLanguage = true
         name = "Tags"
         url = "/tags"
         weight = 5
-        pre = "<i class='fa fa-tags'></i>"        
+        pre = "<i class='fa fa-tags'></i>"
+    [[menus.main]]
+        name = "Series"
+        url = "/series"
+        weight = 6
+        pre = "<i class='fa-solid fa-book'></i>"
     [[menus.main]]
         name = "About"
         url = "/about"
-        weight = 6
+        weight = 7
         pre = "<i class='fa fa-info-circle'></i>"
 
     # social, maxum 6
     # 作者卡片社交链接，最多6个
+    # <i class="fa-brands fa-bilibili"></i>
     [[menus.social]]
         name = "GitHub"
         url = "https://github.com/cutecwc"
@@ -185,6 +191,11 @@ hasCJKLanguage = true
         url = "https://twitter.com/liyue_qian"
         pre = "<i class='fa fa-twitter'></i>"
         weight = 2
+     [[menus.social]]
+        name = "bilibili"
+        url = "https://bilibili.com/"
+        pre = "<i class='fa-brands fa-bilibili'></i>"
+        weight = 3
 
     # sponsor, maxum 3
     # 赞赏，最多支持3个
