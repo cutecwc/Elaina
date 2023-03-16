@@ -1,7 +1,7 @@
 ---
 title: "linux的日常使用"
 description: "nothing else"
-image: 'https://github.com/cutecwc/pucpica/blob/main/blgold/111da.png?raw=true'
+image: 'https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/111da.png'
 draft: false
 date: 2023-02-14
 lastmod: 2023-02-23
