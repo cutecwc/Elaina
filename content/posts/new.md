@@ -3,9 +3,8 @@ title: "笔记停泊站"
 description: "nothing else"
 image: 'https://cdn.staticaly.com/gh/cutecwc/pucpica/main/blgold/89893271_p0.jpg'
 draft: false
-date: 2999-12-24
-lastmod: 2999-12-24
-series: ["其它"]
+date: 2199-12-24
+lastmod: 2199-12-24
 categories: ["其它"]
 tags: ["其它"]
 ---
