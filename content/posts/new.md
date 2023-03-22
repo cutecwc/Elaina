@@ -14,7 +14,9 @@ tags: ["其它"]
 ```api
 https://cdn.staticaly.com/gh/cutecwc/pucpica/main/blgold/
 
-{{< figure--src="" title="" >}}
+{{< figure src="" title="" >}}
+
+end:
 ```
 
 已经使用的标签：
