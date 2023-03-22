@@ -37,7 +37,9 @@ git clone https://github.com/searxng/searxng-docker.git
 cd searxng-docker
 
 # ======================
-# Edit the '.env' file, which is usually hidden, change the '<email>' and '<host>' to the required values（需要包括'<>'  <host> => yoursite.com  <email> => you@mail.com）。
+# Edit the '.env' file, which is usually hidden, change the 
+# '<email>' and '<host>' to the required values（需要包括'<>' 
+# <host> => yoursite.com  <email> => you@mail.com）。
 vim .env
 
 # ======================
@@ -51,7 +53,8 @@ sed -i "s|ultrasecretkey|$(openssl rand -hex 32)|g" searxng/settings.yml
 # ======================
 # 在当前目录（/usr/local/searxng-docker）编辑这个文件（docker-compose.yaml）
 vim docker-compose.yaml
-# Delete all the 'Caddy' parts. (You can optionally comment it out using '#')
+# Delete all the 'Caddy' parts. (You can optionally comment 
+# it out using '#')
 # 修改searxgn:选项下的'posts:'
 ` posts: 
 ` 		"127.0.0.1:8080:8080" #(before)
@@ -59,7 +62,10 @@ vim docker-compose.yaml
 
 # ======================
 # Your server usually has a BT panel. 使用宝塔面板Nginx反代。
-# Then use BT-Penal to add anti-generation configuration, the target URL is 'http://127.0.0.1:7890' , if the port is modified above, replace 7890 with the modified port, and finally submit.
+# Then use BT-Penal to add anti-generation configuration, 
+# the target URL is 'http://127.0.0.1:7890' , if the port is 
+# modified above, replace 7890 with the modified port, and 
+# finally submit.
 # as the picture shows：
 ```
 
@@ -70,7 +76,9 @@ vim docker-compose.yaml
 ![](https://cdn.staticaly.com/gh/cutecwc/pucpica/main/y23m3/41bc38b517deeab4566797958b4664e0.png)
 
 ```nginx
-# Comment or delete all the content of the original 'location / {}', fill in the content here, here 7890 needs to be modified to the port value you set.
+# Comment or delete all the content of the original 
+# 'location / {}', fill in the content here, here 7890 needs to 
+# be modified to the port value you set.
 location / {
     proxy_pass http://127.0.0.1:7890;
     proxy_set_header Host $host;
@@ -106,7 +114,9 @@ firewall-cmd --reload
 # ======================
 # 在当前目录（/usr/local/searxng-docker）执行
 sudo docker-compose up
-# 试试是否可以访问了（broswer-> host）(Before this, you should have set up the DNS resolution service. If not, go back to your domain name service provider and modify this)
+# 试试是否可以访问了（broswer-> host）(Before this, you should 
+# have set up the DNS resolution service. If not, go back to 
+# your domain name service provider and modify this)
 
 # 如果没有问题（正常访问），就可以Ctrl-C服务，并启动这个程序的守护进程。
 sudo docker-compose up -d
