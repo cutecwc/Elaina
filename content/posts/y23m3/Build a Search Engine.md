@@ -15,7 +15,7 @@ tags: ["教程/搭建"]
 https://cdn.staticaly.com/gh/cutecwc/pucpica/main/y23m3/
 ```
 
-## 一、SearXNG
+# 一、SearXNG简介
 
 ```markdown
 系统：Debian 10（DD脚本 非必需DD用原来的系统也OK，之后教程都是用Debian或者Ubuntu搭建～）
@@ -28,6 +28,8 @@ https://cdn.staticaly.com/gh/cutecwc/pucpica/main/y23m3/
 ```markdown
 服务器要求：不是非常高，能搭建Docker即可，建议1G以上。
 ```
+
+# 二、基本部署 
 
 ```bash
 # 选择一个目录：（这里选择/usr/local），在此处克隆文件。
@@ -91,6 +93,8 @@ location / {
 
 最后点击保存。
 
+# 三、安装docker
+
 ```bash
 # ======================
 # 在当前目录（/usr/local/searxng-docker）运行docker脚本
@@ -122,6 +126,8 @@ sudo docker-compose up
 sudo docker-compose up -d
 # --关闭终端
 ```
+
+# 四、？
 
 ```markdown
 更多：

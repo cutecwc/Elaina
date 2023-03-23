@@ -37,8 +37,6 @@ series: []
 image: "" 在静态中放置需要的文件。
 
 
-{{< figure src="/images/post/23年2月/80468767_p0.jpg" title="(9)" >}}
-
 博客主题来自 [Here](https://github.com/xioyito/NewBee)。
 ```
 

@@ -108,16 +108,19 @@ def args_Defination():
     args = parser.parse_args()
     runtimeflags = False
     if args.use:
-        print("===============================\n>> helpsget")
+        print("====================================\n>> helpsget")
+        print("一、图片使用规则：")
+        print("\t （1）、{{< figure src=" " title=" " >}}")
+        print("\t （1）、![text]() ")
         runtimeflags =True
         return
     if args.time:
-        print("===============================\n>> time revised... ")
+        print("====================================\n>> time revised... ")
         runtimeflags =True
         ops_RunTimeRevise()
         return
     if runtimeflags==False:
-        print("===============================\n>> nothing done. you'd like to give an agument likes '-u'(known how to use it)")
+        print("====================================\n>> nothing done. you'd like to give an agument likes '-u'(known how to use it)")
 
 import datetime
 
