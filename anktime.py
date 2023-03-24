@@ -108,19 +108,23 @@ def args_Defination():
     args = parser.parse_args()
     runtimeflags = False
     if args.use:
-        print("====================================\n>> helpsget")
+        print("====================================\n>> 这是一些帮助：")
         print("一、图片使用规则：")
         print("\t （1）、{{< figure src=" " title=" " >}}")
         print("\t （1）、![text]() ")
         runtimeflags =True
         return
     if args.time:
-        print("====================================\n>> time revised... ")
+        print("====================================\n>> 已修改... ")
         runtimeflags =True
         ops_RunTimeRevise()
         return
     if runtimeflags==False:
-        print("====================================\n>> nothing done. you'd like to give an agument likes '-u'(known how to use it)")
+        print("====================================\n>> 缺少的命令：使用'-u'了解方法。")
+
+# TODO: 文件的标签管理工具。
+# TODO: 文件的选择初始化工具（具有时间自动化能力）
+
 
 import datetime
 
