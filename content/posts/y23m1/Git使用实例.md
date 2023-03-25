@@ -13,7 +13,7 @@ tags:
 
 {{< figure src="https://cdn.staticaly.com/gh/cutecwc/pucpica/main/blgold/104270153_p0.jpg" title="zhen" >}}
 
-### Git的使用
+# Git的使用
 
 ```bash
 git config --global user.name 'name'
@@ -57,7 +57,7 @@ git add . 与 git commit -m 'string' 可以合并为:
 git commit -am "string"
 ```
 
-### .git文件过大
+# .git文件过大
 
 可以新初始化一个仓库，将远程仓库除git相关的以外的文件复制到里面，然后强制推送。（可以减少一点点，如果对项目熟悉，可以定期清理git文件；主要还是得把大文件找出来，尽量不上传）
 
