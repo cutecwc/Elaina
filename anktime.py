@@ -171,8 +171,16 @@ def args_Defination():
         print("====================================\n>> ")
         # nameextra = r"(jsdelivr.net/gh/cutecwc/pucpica/)"
         # substr = "staticaly.com/gh/cutecwc/pucpica/main/"
-        nameextra = r"(staticaly.com/gh/cutecwc/pucpica/main/)"
-        substr = "jsdelivr.net/gh/cutecwc/pucpica/"
+
+        # nameextra = r"(staticaly.com/gh/cutecwc/pucpica/main/)"
+        # substr = "jsdelivr.net/gh/cutecwc/pucpica/"
+
+        # https://mugit.eelaina.cc/cutecwc/pucpica/blob/main/y23m3/
+        # https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/
+        # https://mugit.eelaina.cc/cutecwc/pucpica/blob/main/?
+        # append = ?raw=true
+        nameextra = r"(cdn.jsdelivr.net/gh/cutecwc/pucpica/)"
+        substr = "mugit.eelaina.cc/cutecwc/pucpica/blob/main/"
         print(" 请确认这个操作：y/n-yes/not")
         argument = input()
         if (argument=='y') or (argument=='yes'):
