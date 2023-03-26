@@ -11,7 +11,7 @@ tags: ["其它"]
 
 # 应该使用的标记：
 
-```api
+```markdown
 https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/
 
 {{< figure src="" title="" >}}
