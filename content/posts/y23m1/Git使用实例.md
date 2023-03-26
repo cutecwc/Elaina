@@ -11,7 +11,7 @@ tags:
 
 
 
-{{< figure src="https://cdn.staticaly.com/gh/cutecwc/pucpica/main/blgold/104270153_p0.jpg" title="zhen" >}}
+{{< figure src="https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/104270153_p0.jpg" title="zhen" >}}
 
 # Git的使用
 

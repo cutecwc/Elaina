@@ -1,7 +1,7 @@
 ---
 title: "笔记停泊站"
 description: "nothing else"
-image: 'https://cdn.staticaly.com/gh/cutecwc/pucpica/main/blgold/89893271_p0.jpg'
+image: 'https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/89893271_p0.jpg'
 draft: false
 date: 2023-03-24
 lastmod: 2023-03-24
@@ -12,7 +12,7 @@ tags: ["其它"]
 # 应该使用的标记：
 
 ```api
-https://cdn.staticaly.com/gh/cutecwc/pucpica/main/blgold/
+https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/
 
 {{< figure src="" title="" >}}
 
@@ -42,7 +42,7 @@ end:
 1. C++学习笔记
 2. leetcode笔记
 
-![dd](https://cdn.staticaly.com/gh/cutecwc/pucpica/main/y23m3/Screenshot_20230317_205607.png)
+![dd](https://cdn.jsdelivr.net/gh/cutecwc/pucpica/y23m3/Screenshot_20230317_205607.png)
 
 ------------------
 
@@ -150,7 +150,7 @@ def func_ReviseTest(filepath):
     for eachline in freadline:
         # set match and what to replace!, you need to change here?
         a = re.sub(r"(https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/)",
-                   "https://cdn.staticaly.com/gh/cutecwc/pucpica/main/blgold/", eachline)
+                   "https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/", eachline)
         f2.writelines(a)
     f2.close()
 

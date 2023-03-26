@@ -1,7 +1,7 @@
 ---
 title: "SearXNG搭建"
 description: "nothing else"
-image: 'https://cdn.staticaly.com/gh/cutecwc/pucpica/main/y23m3/z63z6s-2.webp'
+image: 'https://cdn.jsdelivr.net/gh/cutecwc/pucpica/y23m3/z63z6s-2.webp'
 draft: false
 date: 2023-03-17
 lastmod: 2023-03-17
@@ -12,7 +12,7 @@ tags: ["教程/搭建"]
 应该使用的标记：
 
 ```api
-https://cdn.staticaly.com/gh/cutecwc/pucpica/main/y23m3/
+https://cdn.jsdelivr.net/gh/cutecwc/pucpica/y23m3/
 ```
 
 # 一、SearXNG简介
@@ -71,11 +71,11 @@ vim docker-compose.yaml
 # as the picture shows：
 ```
 
-![](https://cdn.staticaly.com/gh/cutecwc/pucpica/main/y23m3/f63ecc05ea494a0e83c8cf55f40df6f8.png)
+![](https://cdn.jsdelivr.net/gh/cutecwc/pucpica/y23m3/f63ecc05ea494a0e83c8cf55f40df6f8.png)
 
 在下图所示出编辑配置：
 
-![](https://cdn.staticaly.com/gh/cutecwc/pucpica/main/y23m3/41bc38b517deeab4566797958b4664e0.png)
+![](https://cdn.jsdelivr.net/gh/cutecwc/pucpica/y23m3/41bc38b517deeab4566797958b4664e0.png)
 
 ```nginx
 # Comment or delete all the content of the original 
