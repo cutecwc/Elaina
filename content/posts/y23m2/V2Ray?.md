@@ -2,7 +2,7 @@
 title: "在服务器搭建个人应用"
 description: "nothing else"
 image: ''
-draft: false
+draft: true
 date: 2023-02-13
 lastmod: 2023-02-14
 categories: ["发现"]

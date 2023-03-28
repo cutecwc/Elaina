@@ -12,6 +12,37 @@ tags: ["教程/搭建"]
 
 推荐阅读：[代理搭建测试](https://github.com/cutecwc/Elaina/blob/main/content/posts/y23m2/V2Ray%3F.md)
 
+# Linux方法
+
+## 1、zip相关的使用方式
+
+
+```bash
+tar -cvf log.tar log2012.log            # 仅打包，不压缩
+tar -zcvf log.tar.gz log2012.log        # 打包后，以 gzip 压缩
+tar -jcvf log.tar.bz2 log2012.log       # 打包后，以 bzip2 压缩
+
+tar -ztvf log.tar.gz                    # 查阅上述 tar 包内有哪些文件
+tar -zxvf log.tar.gz                    # 将 tar 包解压缩
+tar -zxvf log30.tar.gz log2013.log      # 只将 tar 内的部分文件解压出来
+```
+
+```bash
+gzip * # 将所有文件压缩成 .gz 文件
+gzip -l * # 详细显示压缩文件的信息，并不解压
+gzip -dv * # 解压上例中的所有压缩文件，并列出详细的信息
+gzip -r log.tar     # 压缩一个 tar 备份文件，此时压缩文件的扩展名为.tar.gz
+gzip -rv test/      # 递归的压缩目录
+gzip -dr test/      # 递归地解压目录
+```
+
+```bash
+unzip test.zip              # 解压 zip 文件
+unzip -n test.zip -d /tmp/  # 在指定目录下解压缩
+unzip -o test.zip -d /tmp/  # 在指定目录下解压缩，如果有相同文件存在则覆盖
+unzip -v test.zip           # 查看压缩文件目录，但不解压
+```
+
 # Arch日志
 
 ## 1、WPS报告dpi不对称问题

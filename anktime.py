@@ -136,8 +136,23 @@ def ops_RunTimeRevise():
     print("====================================")
     # func_TimeGet(filepaths)
 
-
+# ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 # TODO: 文件的标签管理工具。
+# to match (by testing), 输出符合正则的字符串
+# TODO: done.
+# func_ReMatch("re-description", "file://filepath/filename")
+def func_NewRematcher_list(nameextra, filename):
+    f1 = open(filename, 'r')
+    freadline = f1.readlines()
+    f1.close()
+    for eachline in freadline:
+        # set match and what to replace!, you need to change here?
+        a = re.search(nameextra, eachline, re.I)
+        if a != None:
+            print(a)
+        # print(eachline)
+# ←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←
+
 # TODO: 文件的选择初始化工具（具有时间自动化能力）
 
 
@@ -198,9 +213,6 @@ def args_Defination():
 import datetime
 
 if __name__ == '__main__':
-    args_Defination() #运行主体
-    # func_ReMatchEntry(r"(https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/)",
-    #                   "./test.md")
-    # func_ReviseLinkByWalker("./test.md")
-
+    # args_Defination() #运行主体
+    # func_NewRematcher_list(r"\$tags<@>.{1,}<@>\$", "./content/posts/new.md")
     print("\n >>", datetime.datetime.now(), "all done. ")
