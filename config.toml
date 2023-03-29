@@ -23,8 +23,6 @@ summaryLength = 50
 # 中日韩语言请改为 true
 hasCJKLanguage = true
 
-# trans:
-favicon = "/images/favicon/favicon.ico"
 
 [author]
     name = "wxymywill"
@@ -45,6 +43,11 @@ favicon = "/images/favicon/favicon.ico"
     series = "series"
     
 [params]
+    # for test.
+    # [params.favicon]
+        # trans:
+    favicon = "/images/favicon/favicon.ico"
+
     [params.site]
         onlyOneLang = false
         # style of theme: auto, light, dark
@@ -52,7 +55,6 @@ favicon = "/images/favicon/favicon.ico"
     # page configuration
     # 页面配置  
     [params.page]
-
         # top image in home page, note that the "/" in path is necessary, the same applies below
         # 主页的顶部图，路径开头”/“是必需的。下同
         # homeTopImg = "/images/itself/home.png"
@@ -141,6 +143,7 @@ favicon = "/images/favicon/favicon.ico"
         visitor = true
         # wheher to enable theme information
         themeInfo = false
+
 
     # aplayer, se  more: https://aplayer.js.org/#/zh-Hans/
     # 音乐播放器配置，详情请移步：https://aplayer.js.org/#/zh-Hans/
