@@ -23,9 +23,12 @@ summaryLength = 50
 # 中日韩语言请改为 true
 hasCJKLanguage = true
 
+# trans:
+favicon = "/images/favicon/favicon.ico"
+
 [author]
     name = "wxymywill"
-    description = "blogs"
+    description = "清祭-奠心"
     # profile photo of author in author card
     # 作者头像
     # image = "/images/author.jpeg"
@@ -72,7 +75,7 @@ hasCJKLanguage = true
         categoryTopImg = "/images/categories.jpg"
         # description of categories terms page
         # 子标题
-        categoryDes = "Blog here..."
+        categoryDes = "聆风语"
 
         # top image in tags terms page
         # 标签页面的顶部图
@@ -100,11 +103,11 @@ hasCJKLanguage = true
         defaultPostImg = "/images/default.png"
         
         # 主页文章最大显示数量
-        maxHomePostCount = 5
+        maxHomePostCount = 6
         # 相关文章最大显示数量
-        maxPageRelatedCount = 5
+        maxPageRelatedCount = 3
         # 最新文章最大显示数量
-        maxPageNewestCount = 5
+        maxPageNewestCount = 3
 
     # Valine comment
     # Valine评论（详情请移步：https://valine.js.org/）
