@@ -44,9 +44,9 @@ hasCJKLanguage = true
     
 [params]
     # for test.
-    # [params.favicon]
+    [params.favicon]
         # trans:
-    favicon = "/images/favicon/favicon.ico"
+        favicon = "/images/favicon/favicon.ico"
 
     [params.site]
         onlyOneLang = false
