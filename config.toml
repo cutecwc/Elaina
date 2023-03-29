@@ -53,7 +53,7 @@ hasCJKLanguage = true
         # top image in home page, note that the "/" in path is necessary, the same applies below
         # 主页的顶部图，路径开头”/“是必需的。下同
         # homeTopImg = "/images/itself/home.png"
-        homeTopImg = "/images/itself/78166169_p0.jpg"
+        homeTopImg = "/images/itself/105517332_p0.jpg"
         # title in home top image, support Markdown
         # 主页标题，支持Markdown语法
         homeTitle = "elaina's dailylife"
