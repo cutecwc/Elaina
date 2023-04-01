@@ -14,6 +14,10 @@ defaultContentLanguage = "en"
 # 是否使用 robots.txt
 enableRobotsTXT = true
 
+#############
+disablePathToLower = true
+#############
+
 # length of summary
 # 摘要的字数限制
 summaryLength = 50
