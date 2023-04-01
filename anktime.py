@@ -214,5 +214,5 @@ import datetime
 
 if __name__ == '__main__':
     # args_Defination() #运行主体
-    # func_NewRematcher_list(r"\$tags<@>.{1,}<@>\$", "./content/posts/new.md")
+    func_NewRematcher_list(r"\$tags(<@>).*\1\$", "./content/posts/new.md")
     print("\n >>", datetime.datetime.now(), "all done. ")
