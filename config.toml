@@ -37,7 +37,7 @@ hasCJKLanguage = true
     image = "/images/itself/hdea_test.png"
     # link of followme in author card and footer
     # 作者卡片里 followme 和页脚作者的链接
-    link = "https://github.com/cutecwc"
+    link = "https://space.bilibili.com/473009341"
 
 # Taxonomies, Currently, only the following 3 taxonomies are supported
 # If you don't want one of them，delete it in [menus] instead here
@@ -47,11 +47,6 @@ hasCJKLanguage = true
     series = "series"
     
 [params]
-    # for test.
-    [params.favicon]
-        # trans:
-        favicon = "/images/favicon/favicon.ico"
-
     [params.site]
         onlyOneLang = false
         # style of theme: auto, light, dark
@@ -114,6 +109,10 @@ hasCJKLanguage = true
         maxPageRelatedCount = 3
         # 最新文章最大显示数量
         maxPageNewestCount = 3
+    # for test.
+    [params.favicon]
+        # trans:
+        favicon = "/images/favicon/favicon.ico"
 
     # Valine comment
     # Valine评论（详情请移步：https://valine.js.org/）
