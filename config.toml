@@ -109,10 +109,11 @@ hasCJKLanguage = true
         maxPageRelatedCount = 3
         # 最新文章最大显示数量
         maxPageNewestCount = 3
+
     # for test.
-    [params.favicon]
-        # trans:
-        favicon = "/images/favicon/favicon.ico"
+    # [params.favicon]
+    #     # trans:
+    #     favicon = "/images/favicon/favicon.ico"
 
     # Valine comment
     # Valine评论（详情请移步：https://valine.js.org/）
@@ -128,7 +129,7 @@ hasCJKLanguage = true
         # 头像，具体请参考：https://valine.js.org/avatar.html
         avatar = 'robohash'
         # 评论时要求的必须填写项，可选值：['nick']或['nick','mail']
-        requiredFields = ['nick']
+        requiredFields = ['nick', 'mail']
         # 文章访问量统计
         visitor = true
         # 单页最大评论数目
