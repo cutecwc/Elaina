@@ -6,7 +6,7 @@
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }} ">
     <link rel="canonical" href="{{ .Permalink }}" />
 <!--     <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon/favicon.ico">
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
     {{ if not (in (string .Site.BaseURL) "localhost") }}
