@@ -15,7 +15,7 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 
 #############
-disablePathToLower = true
+# disablePathToLower = true
 #############
 
 # length of summary
@@ -114,6 +114,7 @@ hasCJKLanguage = true
     # [params.favicon]
     #     # trans:
     #     favicon = "/images/favicon/favicon.ico"
+    # 修改了根目录下文件夹内 head.html image/x-icon==> 部分，如果要还原取消注释即可
 
     # Valine comment
     # Valine评论（详情请移步：https://valine.js.org/）
