@@ -30,7 +30,7 @@ hasCJKLanguage = true
 
 [author]
     name = "wxymywill"
-    description = "问尔所之，安否如是？蕙兰芫荽，郁郁香芷。彼方淑女，凭君寄辞。伊人曾在……​"
+    description = "聆风语，清心​"
     # profile photo of author in author card
     # 作者头像
     # image = "/images/author.jpeg"
@@ -66,7 +66,7 @@ hasCJKLanguage = true
         homeTitleFontSize = 40
         # content in home top image, support Markdown
         # 主页内容，支持Markdown语法
-        homeContent = "今时月"
+        homeContent = "问尔所之，安否如是？蕙兰芫荽，郁郁香芷。彼方淑女，凭君寄辞。伊人曾在……"
         # font size(px)
         # 主页内容字号（单位：px）
         homeContentFontSize = 20
@@ -76,7 +76,7 @@ hasCJKLanguage = true
         categoryTopImg = "/images/categories.jpg"
         # description of categories terms page
         # 子标题
-        categoryDes = "聆风语，清心"
+        categoryDes = "今时月"
 
         # top image in tags terms page
         # 标签页面的顶部图
