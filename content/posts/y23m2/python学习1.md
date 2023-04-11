@@ -80,15 +80,15 @@ def func_ReviseTest(filepath):
     # TODO: to give a path, to open a file, and the file looks like (/path/**/example.txt)
     # with open(filepath, "r+", encoding='UTF-8') as f1:
     #     for line in f1:
-    #         f1.writelines(re.sub(r"(https://mugit.eelaina.cc/cutecwc/pucpica/blob/main/blgold/)","]]]]]]]]]]]",line))
+    #         f1.writelines(re.sub(r"(https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/)","]]]]]]]]]]]",line))
     f1 = open(filepath,'r')
     freadline = f1.readlines()
     f1.close()
     f2 = open(filepath, "w+")
     for eachline in freadline:
         # set match and what to replace!, you need to change here?
-        a = re.sub(r"(https://mugit.eelaina.cc/cutecwc/pucpica/blob/main/blgold/)",
-                   "https://mugit.eelaina.cc/cutecwc/pucpica/blob/main/blgold/", eachline)
+        a = re.sub(r"(https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/)",
+                   "https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/", eachline)
         f2.writelines(a)
     f2.close()
 

@@ -1,7 +1,7 @@
 ---
 title: "笔记停泊站"
 description: "nothing else"
-image: 'https://mugit.eelaina.cc/cutecwc/pucpica/blob/main/blgold/89893271_p0.jpg?raw=true'
+image: 'https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/89893271_p0.jpg?raw=true'
 draft: false
 date: 2023-04-11
 lastmod: 2023-04-11
@@ -12,7 +12,7 @@ tags: ["其它"]
 # 应该使用的标记：
 
 ```markdown
-https://mugit.eelaina.cc/cutecwc/pucpica/blob/main/blgold/
+https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/
 
 {{< figure src="" title="" >}}
 
@@ -20,7 +20,7 @@ end:
 ```
 
 
-![dd](https://mugit.eelaina.cc/cutecwc/pucpica/blob/main/y23m3/Screenshot_20230317_205607.png?raw=true)
+![dd](https://cdn.jsdelivr.net/gh/cutecwc/pucpica/y23m3/Screenshot_20230317_205607.png?raw=true)
 
 ------------------
 

@@ -1,7 +1,7 @@
 ---
 title: "chatgpt有哪些奇怪的回答？"
 description: "有趣见闻"
-image: 'https://mugit.eelaina.cc/cutecwc/pucpica/blob/main/blgold/Screenshot_20230209_174355.jpg?raw=true'
+image: 'https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/Screenshot_20230209_174355.jpg?raw=true'
 date: 2022-11-01
 lastmod: 2022-12-21
 categories:
@@ -10,7 +10,7 @@ tags:
 - 趣闻
 ---
 
-{{< figure src="https://mugit.eelaina.cc/cutecwc/pucpica/blob/main/blgold/Screenshot_20230209_174328.jpg?raw=true" title="QAQ" >}}
+{{< figure src="https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/Screenshot_20230209_174328.jpg?raw=true" title="QAQ" >}}
 
 与OPENAI的ChatGPT的一些对话（不许坏坏哦）
 
