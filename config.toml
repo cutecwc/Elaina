@@ -15,7 +15,10 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 
 #############
-# disablePathToLower = true
+## 是否禁止URL Path转小写
+disablePathToLower = true
+## 保持分类的原始名字（false会做转小写处理）
+preserveTaxonomyNames = true
 #############
 
 # length of summary
