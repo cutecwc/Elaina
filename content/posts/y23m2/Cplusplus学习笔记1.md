@@ -5,7 +5,7 @@ image: ''
 draft: false
 date: 2023-02-23
 lastmod: 2023-02-23
-series: ["C++学习笔记"]
+series: ["Cplusplus学习笔记"]
 categories: ["学习笔记"]
 tags: ["语言学习"]
 ---
