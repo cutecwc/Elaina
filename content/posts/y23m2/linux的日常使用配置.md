@@ -194,3 +194,7 @@ Pacman 操作:
 
 ```
 
+## 文件目录维护
+
+[目录维护](https://cdn.jsdelivr.net/gh/cutecwc/pucpica/y23m4/filePather.py)（待完善，标记已经显示变化的文件，以此完成系统清理）
+
