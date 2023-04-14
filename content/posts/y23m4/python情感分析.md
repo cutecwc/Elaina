@@ -22,6 +22,8 @@ Github：
 * [中文情感分析之TextCNN](https://github.com/kiss90/textcnn-tf)  预训练中文词向量下载链接:https://pan.baidu.com/s/1UHnVN-HEOJ74f44rLqhggQ 密码:g49h
 
   推荐先安装Anaconda3 python运行环境，然后安装需要的依赖包:
+  
+  同类推荐阅读：CSDN-[中文情感分析之TextCNN](https://blog.csdn.net/yingyujianmo/article/details/100048416#commentBox)。
 
 CSDN：
 
@@ -42,8 +44,10 @@ CSDN：
 其它：
 
 * Chit[GPT。](https://wenku.csdn.net/answer/9bf3f6bf3d7640ea8a699fbbf6ef9941)
+* 腾讯自然语言研究中心（[含数据集](https://ai.tencent.com/ailab/nlp/zh/index.html)）
+* 中文词向量（[数据集](https://github.com/Embedding/Chinese-Word-Vectors/blob/master/README_zh.md)）
 
-
+Python环境anaconda - Linux的尝试（[待解决](https://blog.csdn.net/qq_38870718/article/details/122796306)）
 
 # 二、分析
 
