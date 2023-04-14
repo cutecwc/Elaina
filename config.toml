@@ -3,7 +3,7 @@ languageCode = 'en-us'
 
 # website title
 # 网站标题
-title = 'Elaina is watching you...'
+title = 'elaina's dailylife'
 # theme
 # 主题
 theme = "NewBee"
@@ -65,7 +65,7 @@ hasCJKLanguage = true
         homeTopImg = "/images/itself/105517332_p0.jpg"
         # title in home top image, support Markdown
         # 主页标题，支持Markdown语法
-        homeTitle = "elaina's dailylife"
+        homeTitle = "elaina is watching you..."
         # font size(px)
         # 主页标题字号（单位：px）
         homeTitleFontSize = 40
