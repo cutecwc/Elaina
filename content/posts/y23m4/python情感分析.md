@@ -47,8 +47,6 @@ CSDN：
 * 腾讯自然语言研究中心（[含数据集](https://ai.tencent.com/ailab/nlp/zh/index.html)）
 * 中文词向量（[数据集](https://github.com/Embedding/Chinese-Word-Vectors/blob/master/README_zh.md)）
 
-Python环境anaconda - Linux的尝试（[待解决](https://blog.csdn.net/qq_38870718/article/details/122796306)）
-
 # 二、分析
 
 ## 0、传统模型的缺点
@@ -80,6 +78,154 @@ Python环境anaconda - Linux的尝试（[待解决](https://blog.csdn.net/qq_388
 
 NLPIR情感分析技术提供两种模式：全文的情感判别(左图)与指定对象的情感判别(右图)。情感分析主要采用了两种技术：1.情感词的自动识别与权重自动计算，利用共现关系，采用Bootstrapping的策略，反复迭代，生成新的情感词及权重;2.情感判别的深度神经网络：基于深度神经网络对情感词进行扩展计算，综合为最终的结果。NLPIR情感分析内容形式包括特定人物的正、负面分析，这样可以从整体看到特定人物对社会观点和事情的态度，从而来判断他的态度是积极的还是消极的 。同时通过喜、怒、哀、乐、惊、惧等几种情感维度分别展现他的性格取向，是稳重型还是冒进型;是积极乐观的还是消极愤世的;这样就可以综合的反应特定人物的情感状态。
 
-
 情感分析不是单单的对特定人物感情来进行分析，同时还要对特定人物相关事件一起来分析从而得出更加科学、全面的分析报告。NLPIR系统能够实体抽取智能识别文本中出现的人名、地名、机构名、媒体、作者及文章的主题关键词，这是对语言规律的深入理解和预测，并且其所提炼出的词语不需要在词典库中事先存在。NLPIR实体抽取系统采用基于角色标注算法自动识别命名实体，开发者可在此基础上搭建各种多样化的大数据挖掘应用。
+
+# 三、实践
+
+## 数据预处理部分
+
+```python
+import jieba
+
+data_filepath = "./datasetbin/weibo_senti_100k.csv"
+stop_filepath = "./datasetbin/stopwords.txt"
+
+stop_list = open(stop_filepath).readlines()
+stops_word = [line.strip() for line in stop_list]  # 读取出来的词语含有换行符，需要清理，然后将它们放进一个list:stops_word中
+stops_word.append(' ')  # 补充停止符
+stops_word.append('\n')
+stops_word.append('~')
+stops_word.append('/')
+
+data_list = open(data_filepath).readlines()[1:]
+
+voc_dict = {}  # 定义统计字典
+min_seq = 1  # 超参数,用于定义词频下限
+top_n = 1000  # 定义排序的前n的词频的词语被取用。
+
+# 标记未入选top_n词频的词语（剩余低频词语为unknow）
+# pad ？
+UNK = "<UNK>"
+PAD = "<PAD>"
+
+# TODO: 这里只取前100条，后面去掉[:100]就可以了--for item in data_list[:100]
+for item in data_list:
+    label = item[0]  # 第一项为label,标注为情感指向
+    content = item[2:].strip()  # 第三项是文本实际内容（除去分号），然后对字符串截断换行符
+    seg_list = jieba.cut(content, cut_all=False)  # cut_all参数表示？精确切分
+
+    noseg_res = []
+    for seg_item in seg_list:
+        # print(seg_item) # 此处有停用词造成的干扰，所以需要清理
+        if seg_item in stops_word:
+            continue  # 如果这次的分词是停用词，就跳过这次循环
+        noseg_res.append(seg_item)  # 如果不是停用词，就加入新的list中。
+
+        # 分词之后，需要统计字典
+        if seg_item in voc_dict.keys():
+            voc_dict[seg_item] = voc_dict[seg_item] + 1  # 如果在其中，频率加一
+        else:
+            voc_dict[seg_item] = 1  # 否则加入这个词语
+
+    print(content)
+    print(noseg_res)
+
+# 做词频排序： 此处定义了几个参数：min_seq 表示词频下限， key表示lambda模式， reverse 表示降序排列
+voc_list = sorted([_ for _ in voc_dict.items() if _[1] > min_seq],
+                  key=lambda x: x[1],
+                  reverse=True)[:top_n]
+
+# 上面得到了一个voc_list排序，这里定义一个dictnew字典来更新含有top_n词频的序列。
+voc_dictnew = {word_count[0]: idx for idx, word_count in enumerate(voc_list)}
+# 剩余低频词语为unknow
+voc_dictnew.update({UNK: len(voc_dictnew), PAD: len(voc_dictnew) + 1})
+
+print(voc_dictnew)
+# {'/': 0, '的': 1, '！': 2, '哈哈': 3, '了':
+# 4, '?': 5, '你': 6, '我': 7, '嘻嘻': 8, '是':
+# 9, '鼓掌': 10, '爱': 11, '"': 12, '#': 13, '在': 14, '？'
+# 上面的print会输入诸如此类的编码，表示 我-->7 等等。
+
+# 这里保存得到的字典，以"{},{}\n".format(item, voc_dictnew[item])模式
+dictnew_filepath = "./result/dict"
+dictnew_filepath_open = open(dictnew_filepath,'w')
+for item in voc_dictnew.keys():
+    dictnew_filepath_open.writelines("{},{}\n".format(item, voc_dictnew[item]))
+dictnew_filepath_open.close()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# I、附录
+
+## 一、anaconda配置
+
+Python环境anaconda - Linux（[↑](https://blog.csdn.net/qq_38870718/article/details/122796306)）
+
+archlinux中，安装anaconda只需要使用命令：
+
+```bash
+yay -S anaconda
+```
+
+如何使用（图形界面等功能）？
+
+```bash
+# 可以通过(激活和取消环境)
+source /opt/anaconda/bin/activate root
+source /opt/anaconda/bin/deactivate root # conda deactivate
+
+# 使用来启动图形界面
+anaconda-navigator
+```
+
+参考文件（[↑](https://blog.csdn.net/qq_42663663/article/details/125227099)）
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
