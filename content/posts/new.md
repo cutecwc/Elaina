@@ -13,10 +13,7 @@ tags: ["其它"]
 
 ```markdown
 https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/
-
-{{< figure src="" title="" >}}
-
-end:
+{{尖括号 figure src=" " title = "" 尖括号}}
 ```
 
 
@@ -24,7 +21,7 @@ end:
 
 ------------------
 
-# tip
+# Temporary
 
 参考文件1-for url：https://zhuanlan.zhihu.com/p/40997372
 
@@ -39,7 +36,10 @@ then:
 means that you are success.
 ```
 
+# Stop pools:
 
+* linux管理面板（[↑](https://1Panel.cn/)）Github地址（[↑](https://github.com/1Panel-dev/1Panel)）
+* Typora主题Seeyue（[↑](https://github.com/jinghu-moon/typora-see-yue-theme)）
 
 
 

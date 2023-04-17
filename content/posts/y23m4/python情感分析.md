@@ -2,7 +2,7 @@
 title: "python情感分析"
 description: "使用Python的SnowNLP库进行商品的情感分析情感分析"
 image: 'https://cdn.jsdelivr.net/gh/cutecwc/pucpica/y23m4/106374032_p0.jpg'
-draft: false
+draft: true
 date: 2023-04-11
 lastmod: 2023-04-11
 categories: ["其它"]
@@ -46,6 +46,7 @@ CSDN：
 * Chit[GPT。](https://wenku.csdn.net/answer/9bf3f6bf3d7640ea8a699fbbf6ef9941)
 * 腾讯自然语言研究中心（[含数据集](https://ai.tencent.com/ailab/nlp/zh/index.html)）
 * 中文词向量（[数据集](https://github.com/Embedding/Chinese-Word-Vectors/blob/master/README_zh.md)）
+* github数据集（[link](https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/weibo_senti_100k/intro.ipynb)）
 
 # 二、分析
 
@@ -82,97 +83,17 @@ NLPIR情感分析技术提供两种模式：全文的情感判别(左图)与指�
 
 # 三、实践
 
-## 数据预处理部分
+## 1、数据预处理部分
 
-```python
-import jieba
 
-data_filepath = "./datasetbin/weibo_senti_100k.csv"
-stop_filepath = "./datasetbin/stopwords.txt"
-
-stop_list = open(stop_filepath).readlines()
-stops_word = [line.strip() for line in stop_list]  # 读取出来的词语含有换行符，需要清理，然后将它们放进一个list:stops_word中
-stops_word.append(' ')  # 补充停止符
-stops_word.append('\n')
-stops_word.append('~')
-stops_word.append('/')
-
-data_list = open(data_filepath).readlines()[1:]
-
-voc_dict = {}  # 定义统计字典
-min_seq = 1  # 超参数,用于定义词频下限
-top_n = 1000  # 定义排序的前n的词频的词语被取用。
-
-# 标记未入选top_n词频的词语（剩余低频词语为unknow）
-# pad ？
-UNK = "<UNK>"
-PAD = "<PAD>"
-
-# TODO: 这里只取前100条，后面去掉[:100]就可以了--for item in data_list[:100]
-for item in data_list:
-    label = item[0]  # 第一项为label,标注为情感指向
-    content = item[2:].strip()  # 第三项是文本实际内容（除去分号），然后对字符串截断换行符
-    seg_list = jieba.cut(content, cut_all=False)  # cut_all参数表示？精确切分
-
-    noseg_res = []
-    for seg_item in seg_list:
-        # print(seg_item) # 此处有停用词造成的干扰，所以需要清理
-        if seg_item in stops_word:
-            continue  # 如果这次的分词是停用词，就跳过这次循环
-        noseg_res.append(seg_item)  # 如果不是停用词，就加入新的list中。
-
-        # 分词之后，需要统计字典
-        if seg_item in voc_dict.keys():
-            voc_dict[seg_item] = voc_dict[seg_item] + 1  # 如果在其中，频率加一
-        else:
-            voc_dict[seg_item] = 1  # 否则加入这个词语
-
-    print(content)
-    print(noseg_res)
-
-# 做词频排序： 此处定义了几个参数：min_seq 表示词频下限， key表示lambda模式， reverse 表示降序排列
-voc_list = sorted([_ for _ in voc_dict.items() if _[1] > min_seq],
-                  key=lambda x: x[1],
-                  reverse=True)[:top_n]
-
-# 上面得到了一个voc_list排序，这里定义一个dictnew字典来更新含有top_n词频的序列。
-voc_dictnew = {word_count[0]: idx for idx, word_count in enumerate(voc_list)}
-# 剩余低频词语为unknow
-voc_dictnew.update({UNK: len(voc_dictnew), PAD: len(voc_dictnew) + 1})
-
-print(voc_dictnew)
-# {'/': 0, '的': 1, '！': 2, '哈哈': 3, '了':
-# 4, '?': 5, '你': 6, '我': 7, '嘻嘻': 8, '是':
-# 9, '鼓掌': 10, '爱': 11, '"': 12, '#': 13, '在': 14, '？'
-# 上面的print会输入诸如此类的编码，表示 我-->7 等等。
-
-# 这里保存得到的字典，以"{},{}\n".format(item, voc_dictnew[item])模式
-dictnew_filepath = "./result/dict"
-dictnew_filepath_open = open(dictnew_filepath,'w')
-for item in voc_dictnew.keys():
-    dictnew_filepath_open.writelines("{},{}\n".format(item, voc_dictnew[item]))
-dictnew_filepath_open.close()
-```
+休止符a
 
 
 
 
+## 0、参考
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+中文常用停用词表（[。](https://github.com/goto456/stopwords)）
 
 # I、附录
 
