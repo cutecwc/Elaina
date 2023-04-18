@@ -105,7 +105,7 @@ def func_FileReadByLine(filepath):
         elif flag > 7:
             break
         else:
-            print(eachline)
+            print(eachline, end='')
 
 
 # TODO: 文件备份:

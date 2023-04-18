@@ -3,8 +3,8 @@ title: "笔记停泊站"
 description: "nothing else"
 image: 'https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/89893271_p0.jpg?raw=true'
 draft: false
-date: 2023-04-14
-lastmod: 2023-04-14
+date: 2023-04-18
+lastmod: 2023-04-18
 categories: ["其它"]
 tags: ["其它"]
 ---
@@ -40,6 +40,7 @@ means that you are success.
 
 * linux管理面板（[↑](https://1Panel.cn/)）Github地址（[↑](https://github.com/1Panel-dev/1Panel)）
 * Typora主题Seeyue（[↑](https://github.com/jinghu-moon/typora-see-yue-theme)）
+* 天纪（[↑](https://www.youtube.com/playlist?list=PLLUE1tBkV8HZ3FxUNpbLX2FedJn7IkZ78)）
 
 
 
