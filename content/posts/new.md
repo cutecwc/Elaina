@@ -48,7 +48,7 @@ means that you are success.
 ## 网站/教程
 
 * 中国科学院信息工程研究所考研保研考博文档资料([↑](https://github.com/lixeon/iiecas-kaoyan-bo-docs))
-* 30天自制C++服务器([信息丢失](https://cc.eelaina.cc/posts/new/))
+* 30天自制C++服务器([↑](https://github.com/yuesong-feng/30dayMakeCppServer))
 * 30天自制操作系统([↑](https://github.com/yourtion/YOS))、（[↑](https://github.com/yourtion/30dayMakeOS)）
 
 
