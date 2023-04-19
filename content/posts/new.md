@@ -9,19 +9,16 @@ categories: ["其它"]
 tags: ["其它"]
 ---
 
-# 应该使用的标记：
+# 标记：
 
 ```markdown
 https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/
 {{尖括号 figure src=" " title = "" 尖括号}}
 ```
 
-
-![dd](https://cdn.jsdelivr.net/gh/cutecwc/pucpica/y23m3/Screenshot_20230317_205607.png?raw=true)
-
 ------------------
 
-# Temporary
+# 内容-A
 
 参考文件1-for url：https://zhuanlan.zhihu.com/p/40997372
 
@@ -36,15 +33,31 @@ then:
 means that you are success.
 ```
 
-# Stop pools:
+# 内容-B
+
+## 工具：
 
 * linux管理面板（[↑](https://1Panel.cn/)）Github地址（[↑](https://github.com/1Panel-dev/1Panel)）
 * Typora主题Seeyue（[↑](https://github.com/jinghu-moon/typora-see-yue-theme)）
+* 小火箭（[未测试](https://www.hjtnt.pro/auth/register)）
+
+## 书籍
+
 * 天纪（[↑](https://www.youtube.com/playlist?list=PLLUE1tBkV8HZ3FxUNpbLX2FedJn7IkZ78)）
 
+## 网站/教程
+
+* 中国科学院信息工程研究所考研保研考博文档资料([↑](https://github.com/lixeon/iiecas-kaoyan-bo-docs))
+* 30天自制C++服务器([信息丢失](https://cc.eelaina.cc/posts/new/))
+* 30天自制操作系统([↑](https://github.com/yourtion/YOS))、（[↑](https://github.com/yourtion/30dayMakeOS)）
 
 
+------------------
 
+
+![dd](https://cdn.jsdelivr.net/gh/cutecwc/pucpica/y23m3/Screenshot_20230317_205607.png?raw=true)
+
+# Py维护的内容（未完成）
 
 已经使用的tags：
 
