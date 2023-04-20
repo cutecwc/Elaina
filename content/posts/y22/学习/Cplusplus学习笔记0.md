@@ -1,7 +1,7 @@
 ---
 title: "部分内容的-转移"
 description: "C/C++"
-image: '/images/post/y22_trans/40011042_p0.jpg'
+image: '/images/post/y22_trans/40011042_p0.avif'
 date: 2022-01-01
 series: ["Cplusplus学习笔记"]
 categories:

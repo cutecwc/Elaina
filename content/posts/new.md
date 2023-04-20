@@ -1,7 +1,7 @@
 ---
 title: "笔记停泊站"
 description: "nothing else"
-image: 'https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/89893271_p0.jpg?raw=true'
+image: 'https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/89893271_p0.avif?raw=true'
 draft: false
 date: 2023-04-18
 lastmod: 2023-04-18
@@ -55,7 +55,7 @@ means that you are success.
 ------------------
 
 
-![dd](https://cdn.jsdelivr.net/gh/cutecwc/pucpica/y23m3/Screenshot_20230317_205607.png?raw=true)
+![dd](https://cdn.jsdelivr.net/gh/cutecwc/pucpica/y23m3/Screenshot_20230317_205607.avif?raw=true)
 
 # Py维护的内容（未完成）
 

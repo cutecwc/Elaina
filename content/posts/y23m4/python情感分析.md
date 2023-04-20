@@ -1,7 +1,7 @@
 ---
 title: "python情感分析"
 description: "使用Python的SnowNLP库进行商品的情感分析情感分析"
-image: 'https://cdn.jsdelivr.net/gh/cutecwc/pucpica/y23m4/106374032_p0.jpg'
+image: 'https://cdn.jsdelivr.net/gh/cutecwc/pucpica/y23m4/106374032_p0.avif'
 draft: true
 date: 2023-04-11
 lastmod: 2023-04-11

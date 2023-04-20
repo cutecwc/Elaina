@@ -1,14 +1,14 @@
 ---
 title: "About"
 description: "A few years ago, while visiting or, rather, rummaging about Notre-Dame, the author of this book found, in an obscure nook of one of the towers, the following word, engraved by hand upon the wall: —ANANKE."
-image: '/images/post/23年2月/Screenshot_20230208_154626.png'
+image: '/images/post/23年2月/Screenshot_20230208_154626.avif'
 ---
 
 
 
 
 ** (9) **
-{{< figure src="/images/post/23年2月/80468767_p0.jpg" title="(9)" >}}
+{{< figure src="/images/post/23年2月/80468767_p0.avif" title="(9)" >}}
 
 这是wxymywill的个人博客(先行版)-cc.elaina.cc(https://cc.eelaina.cc/ )。
 网页使用的静态网站，由Github保存，由Netlify(Netlify->Vercel)构建并发布。其中图床使用的是xx，在国内大概率加载不出来。由于是学习记录，文章的内容可能修改特别频繁，其中错误难免较多，欢迎前往xx(不维护)的评论区提出。

@@ -1,7 +1,7 @@
 ---
 title: "Git使用实例"
 description: "C/C++"
-image: '/images/post/23年2月/Screenshot_20230208_210752.jpg'
+image: '/images/post/23年2月/Screenshot_20230208_210752.avif'
 date: 2022-12-16
 categories:
 - 学习笔记
@@ -11,7 +11,7 @@ tags:
 
 
 
-{{< figure src="https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/104270153_p0.jpg?raw=true" title="zhen" >}}
+{{< figure src="https://cdn.jsdelivr.net/gh/cutecwc/pucpica/blgold/104270153_p0.avif?raw=true" title="zhen" >}}
 
 # Git的使用
 

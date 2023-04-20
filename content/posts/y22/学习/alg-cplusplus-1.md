@@ -1,7 +1,7 @@
 ---
 title: algo-二分查找
 description: "C/C++"
-image: '/images/post/y22_trans/104354054_p0.jpg'
+image: '/images/post/y22_trans/104354054_p0.avif'
 date: 2022-12-15
 series: ["leetcode笔记"]
 categories:
