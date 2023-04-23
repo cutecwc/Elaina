@@ -15,8 +15,9 @@ image: '/images/post/23年2月/Screenshot_20230208_154626.avif'
 
 ```markdown
 **TODO: **
-[待解决] 文章将对图片格式进行修改（常规图片-->avif），届时将会有部分图片无法访问；在不收支持的浏览器中加载avif亦将无法访问。
+[待后续] 文章将对图片格式进行修改（常规图片-->avif），届时将会有部分图片无法访问；在不收支持的浏览器中加载avif亦将无法访问。
 ```
+[注意] avif：Google Chrome 和 Mozilla Firefox 在 2020 年已支持 AVIF 格式，而苹果的 Safari 也在 2022 年提供了支持，包括 iOS 和 iPadOS 版的 Safari 也支持 AVIF 格式。Microsoft-Edge预计在今年支持，在此之前，使用非edge访问本网站。
 
 以下是部分的参数记录：
 
