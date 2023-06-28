@@ -51,6 +51,9 @@ means that you are success.
 * 30天自制C++服务器([↑](https://github.com/yuesong-feng/30dayMakeCppServer))
 * 30天自制操作系统([↑](https://github.com/yourtion/YOS))、（[↑](https://github.com/yourtion/30dayMakeOS)）
 
+## 歌曲
+
+* 大连理工大学校歌（钢琴）([↑](https://cdn.jsdelivr.net/gh/cutecwc/pucpica/file/y23/大连理工校歌(钢琴版高音质修复).flac))
 
 ------------------
 
