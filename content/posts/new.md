@@ -33,6 +33,8 @@ then:
 means that you are success.
 ```
 
+文件2[...](https://github.com/cutecwc/pucpica/tree/main/y23m6/trans.zip?raw=true)
+
 # 内容-B
 
 ## 工具：
