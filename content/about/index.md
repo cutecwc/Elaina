@@ -10,12 +10,12 @@ image: '/images/post/23年2月/Screenshot_20230208_154626.avif'
 ** (9) **
 {{< figure src="/images/post/23年2月/80468767_p0.avif" title="(9)" >}}
 
-这是wxymywill的个人博客(先行版)-cc.elaina.cc(https://cc.eelaina.cc/ )。
-网页使用的静态网站，由Github保存，由Netlify(Netlify->Vercel)构建并发布。其中图床使用的是xx，在国内大概率加载不出来。由于是学习记录，文章的内容可能修改特别频繁，其中错误难免较多，欢迎前往xx(不维护)的评论区提出。
+wxymywill的记录-cc.elaina.cc(https://cc.eelaina.cc/ )。
 
 ```markdown
 **TODO: **
-[待后续] 文章将对图片格式进行修改（常规图片-->avif），届时将会有部分图片无法访问；在不收支持的浏览器中加载avif亦将无法访问。
+[待解决] avif转换脚本已在迁移中丢失，重新写一个吧！
+[待解决] 目录结构待优化。
 ```
 [注意] avif：Google Chrome 和 Mozilla Firefox 在 2020 年已支持 AVIF 格式，而苹果的 Safari 也在 2022 年提供了支持，包括 iOS 和 iPadOS 版的 Safari 也支持 AVIF 格式。Microsoft-Edge预计在今年支持，在此之前，使用非edge访问本网站。
 
@@ -42,8 +42,8 @@ series: []
 ** Top image for the post **
 image: "" 在静态中放置需要的文件。
 
-
-博客主题来自 [Here](https://github.com/xioyito/NewBee)。
 ```
+博客主题来自 [Here](https://github.com/xioyito/NewBee)。
+
 
 [测试文件](/files/clash.tar.gz)下载(文件已删除)。
